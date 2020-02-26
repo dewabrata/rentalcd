@@ -52,5 +52,9 @@ class CdmemberController extends Controller
         return response()->json($cdmember);
      }
 
+     public function test(){
+        return response()->json("hello world");
+     }
+
   
 }
